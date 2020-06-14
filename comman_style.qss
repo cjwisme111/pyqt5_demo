@@ -1,0 +1,11 @@
+QLabel {
+    font-size:30px; color:red;
+}
+
+QLabel#notice {
+    color:black;
+}
+
+QLabel[notice_level=warning] {
+    color:yellow;
+}
